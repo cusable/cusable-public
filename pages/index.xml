@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Cusable</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Cusable</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/about/</guid>
+      
+      <description>&lt;h2 id=&#34;welcome-to-cusable&#34;&gt;Welcome to Cusable!&lt;/h2&gt;
+&lt;p&gt;Hey there, I&amp;rsquo;m Nick. I&amp;rsquo;m really glad you’ve made your way here. This space is all about my love for technology and automation—a place where I share what I’ve learned with fellow tech enthusiasts, business owners, or anyone who’s just curious about how to make technology work &lt;em&gt;better&lt;/em&gt; for them.&lt;/p&gt;
+&lt;h2 id=&#34;why-cusable&#34;&gt;Why &amp;ldquo;Cusable&amp;rdquo;?&lt;/h2&gt;
+&lt;p&gt;The name “Cusable” comes from the idea of blending &lt;em&gt;&lt;strong&gt;customization&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;usability&lt;/strong&gt;&lt;/em&gt;. My goal is simple: to make tech solutions that aren’t just powerful, but also practical and easy to use. Whether I’m automating tasks to save time, securing networks, or working on projects like my Automated Wireguard VPN, I’m always focused on solving real problems in a way that feels accessible and useful.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
