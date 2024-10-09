@@ -6,6 +6,30 @@
     <description>Recent content in Posts on Cusable</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Sep 2024 14:13:21 -0500</lastBuildDate><atom:link href="https://cusable.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cusable.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated WireGuard VPN Deployment on Scaleway Cloud with Terraform and Ansible</title>
+      <link>https://cusable.com/posts/automated-wireguard-vpn/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cusable.com/posts/automated-wireguard-vpn/</guid>
+      
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project focuses on the automation of a WireGuard VPN server on Scaleway&amp;rsquo;s cloud infrastructure using &lt;strong&gt;Terraform&lt;/strong&gt;, &lt;strong&gt;Ansible&lt;/strong&gt;, &lt;strong&gt;Jinja2 Templates&lt;/strong&gt;, and &lt;strong&gt;shell scripts&lt;/strong&gt;. The automation is designed to provision, configure, and maintain WireGuard instances using Shell scripts. The project includes scripts for both deployment and destruction of the infrastructure, along with templates for the WireGuard server and client configurations.&lt;/p&gt;
+&lt;h2 id=&#34;key-components&#34;&gt;Key Components&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Terraform&lt;/strong&gt;: Used for provisioning the infrastructure.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ansible&lt;/strong&gt;: Used for configuration management of the WireGuard VPN.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jinja2 Configuration Templates&lt;/strong&gt;: For generating WireGuard configurations dynamically.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shell Scripts&lt;/strong&gt;: For automation of deployment and teardown.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;API Keys&lt;/strong&gt;:&lt;/p&gt;</description>
+      
+    </item>
+    
   </channel>
 </rss>
