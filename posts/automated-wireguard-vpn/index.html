@@ -58,7 +58,7 @@
         },
         "datePublished": "2024-10-08",
         "description": "Learn how to automate the deployment and management of a WireGuard VPN server on Scaleway Cloud using Terraform, Ansible, and shell scripts. Includes provisioning, configuration, and teardown processes.",
-        "wordCount":  1109 ,
+        "wordCount":  1102 ,
         "mainEntityOfPage": "True",
         "dateModified": "2024-10-08",
         "image": {
@@ -263,7 +263,7 @@ stroke-linejoin="round" class="feather feather-home">
 <p><strong>Customization</strong>:</p>
 <ul>
 <li>The templates and scripts can be customized to fit specific needs, such as adding more clients or changing network configurations.</li>
-<li>Modify the <code>variables.tf</code> and Ansible playbooks as needed for your environment.</li>
+<li>Modify the Terraform files and Ansible playbooks as needed for your environment.</li>
 </ul>
 </li>
 </ul>
@@ -275,7 +275,6 @@ stroke-linejoin="round" class="feather feather-home">
 <li><code>terraform/</code>
 <ul>
 <li><strong>provider.tf</strong>: Specifies the cloud provider (Scaleway).</li>
-<li><strong>variables.tf</strong>: Variables used within the Terraform configurations.</li>
 <li><strong>scaleway.auto.tfvars</strong>: Scaleway cloud provider secret variables for API connectivity. <strong>(Important: Protect this file; do not expose API keys.)</strong></li>
 <li><strong>main.tf</strong>: The main Terraform configuration file.</li>
 </ul>
@@ -319,14 +318,9 @@ stroke-linejoin="round" class="feather feather-home">
 </ul>
 </li>
 <li>
-<p><strong><code>variables.tf</code></strong>:</p>
-<ul>
-<li>Contains configuration variables such as instance sizes, network configurations, and region settings.</li>
-</ul>
-</li>
-<li>
 <p><strong><code>main.tf</code></strong>:</p>
 <ul>
+<li>Contains configuration variables such as instance sizes, network configurations, and region settings.</li>
 <li>Defines the infrastructure for the VPN, including:
 <ul>
 <li>The compute instance that will host the WireGuard VPN.</li>
