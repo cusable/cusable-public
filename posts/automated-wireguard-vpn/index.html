@@ -208,15 +208,15 @@ stroke-linejoin="round" class="feather feather-home">
     <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#program-workflow">Program Workflow</a>
       <ul>
-        <li><a href="#1-provisioning-infrastructure-with-terraform"><strong>1. Provisioning Infrastructure with Terraform</strong></a></li>
-        <li><a href="#2-configuring-the-wireguard-vpn-with-ansible"><strong>2. Configuring the WireGuard VPN with Ansible</strong></a></li>
-        <li><a href="#3-deployment-automation-with-shell-scripts"><strong>3. Deployment Automation with Shell Scripts</strong></a></li>
+        <li><a href="#1-provisioning-infrastructure-with-terraform">1. Provisioning Infrastructure with Terraform</a></li>
+        <li><a href="#2-configuring-the-wireguard-vpn-with-ansible">2. Configuring the WireGuard VPN with Ansible</a></li>
+        <li><a href="#3-deployment-automation-with-shell-scripts">3. Deployment Automation with Shell Scripts</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a>
       <ul>
         <li><a href="#deployment-process">Deployment Process</a></li>
-        <li><a href="#teardown-process"><strong>Teardown Process</strong></a></li>
+        <li><a href="#teardown-process">Teardown Process</a></li>
       </ul>
     </li>
     <li><a href="#generated-files">Generated Files</a></li>
@@ -307,7 +307,7 @@ stroke-linejoin="round" class="feather feather-home">
 </ul>
 <hr>
 <h2 id="program-workflow">Program Workflow</h2>
-<h3 id="1-provisioning-infrastructure-with-terraform"><strong>1. Provisioning Infrastructure with Terraform</strong></h3>
+<h3 id="1-provisioning-infrastructure-with-terraform">1. Provisioning Infrastructure with Terraform</h3>
 <p>The first step is provisioning the infrastructure required for the WireGuard VPN server using Terraform.</p>
 <ul>
 <li>
@@ -347,7 +347,7 @@ stroke-linejoin="round" class="feather feather-home">
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>terraform init    <span style="color:#75715e"># Initializes the working directory</span>
 </span></span><span style="display:flex;"><span>terraform plan    <span style="color:#75715e"># Previews the infrastructure changes</span>
 </span></span><span style="display:flex;"><span>terraform apply   <span style="color:#75715e"># Creates and provisions the infrastructure</span>
-</span></span></code></pre></div><h3 id="2-configuring-the-wireguard-vpn-with-ansible"><strong>2. Configuring the WireGuard VPN with Ansible</strong></h3>
+</span></span></code></pre></div><h3 id="2-configuring-the-wireguard-vpn-with-ansible">2. Configuring the WireGuard VPN with Ansible</h3>
 <p>Once the infrastructure is provisioned, Ansible is installed and ready to be used to configure the WireGuard VPN server and client.</p>
 <ul>
 <li><strong>Ansible Playbook (<code>wireguard.yml</code>)</strong>:
@@ -389,7 +389,7 @@ stroke-linejoin="round" class="feather feather-home">
 <p>This process ensures that both the server and client are properly configured with keys and WireGuard settings to establish a secure VPN connection.</p>
 <p><strong>Command to Run the Playbook</strong>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ansible-playbook -i inventory wireguard.yml
-</span></span></code></pre></div><h3 id="3-deployment-automation-with-shell-scripts"><strong>3. Deployment Automation with Shell Scripts</strong></h3>
+</span></span></code></pre></div><h3 id="3-deployment-automation-with-shell-scripts">3. Deployment Automation with Shell Scripts</h3>
 <p>To simplify the process, two shell scripts are provided to automate the deployment and destruction of the VPN infrastructure.</p>
 <h4 id="deployment-script-deploysh"><strong>Deployment Script</strong> (<code>deploy.sh</code>)</h4>
 <p>This script orchestrates the full deployment process, executing both Terraform and Ansible commands to set up the infrastructure and configure WireGuard.</p>
@@ -442,7 +442,7 @@ stroke-linejoin="round" class="feather feather-home">
 <ul>
 <li>Use the generated client configuration file located at <code>ansible/config/client.conf</code> to connect to the VPN using your WireGuard client.</li>
 </ul>
-<h3 id="teardown-process"><strong>Teardown Process</strong></h3>
+<h3 id="teardown-process">Teardown Process</h3>
 <p>To remove the VPN and free up resources:</p>
 <ol>
 <li><strong>Run the Destroy Script</strong>:</li>
